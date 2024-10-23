@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name="touch"
+version="0.1"
+authors=[{name="Ashley Grobler", email="ashleygrobler04@gmail.com"}]
+description="Allows for the creation of files on windows from cmd without using echo"
+requires-python=">=3.8"
+[project.urls]
+homepage="https://github.com/ashleygrobler04/touch"
+[project.scripts]
+touch="touch:main.main"
